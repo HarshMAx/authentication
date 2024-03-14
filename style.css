@@ -1,0 +1,62 @@
+*{
+    background-color:bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.form{
+    font-size: 40px;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: azure;
+    border-radius: 15px;
+    height: 500px;
+    box-shadow: 10px 10px;
+
+}
+label{
+    background-color: azure;
+}
+
+input{
+    font-size: 40px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: azure;
+}
+
+button{
+    font-size: 30px;
+    margin-left: 250px;
+    color: azure;
+    background-color: blue;
+    border-radius: 15px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+input[type='radio']{
+    accent-color: blue;
+    
+}
+.radio{
+    /* height: 30px; */
+}
